@@ -1,6 +1,6 @@
 # node-test-runner
 
-form8ion plugin for the node.js test runner
+form8ion plugin for the [node.js test runner](https://nodejs.org/api/test.html)
 
 <!--status-badges start -->
 
