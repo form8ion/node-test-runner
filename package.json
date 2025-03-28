@@ -21,7 +21,7 @@
     "prepack": "run-s build",
     "pregenerate:md": "run-s build",
     "test:unit": "cross-env NODE_ENV=test c8 run-s test:unit:base",
-    "test:unit:base": "DEBUG=any node --test \"src/**/test-*.js\"",
+    "test:unit:base": "DEBUG=any node --test --experimental-test-module-mocks \"src/**/*-test.js\"",
     "lint:lockfile": "lockfile-lint",
     "prepare": "husky",
     "lint:md": "remark . --frail",
