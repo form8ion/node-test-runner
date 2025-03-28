@@ -28,6 +28,7 @@ form8ion plugin for the [node.js test runner](https://nodejs.org/api/test.html)
 [![npm][npm-badge]][npm-link]
 [![Try @form8ion/node-test-runner on RunKit][runkit-badge]][runkit-link]
 [![license][license-badge]][license-link]
+![node][node-badge]
 
 <!--consumer-badges end -->
 
@@ -119,3 +120,5 @@ $ npm test
 [license-link]: LICENSE
 
 [license-badge]: https://img.shields.io/github/license/form8ion/node-test-runner.svg?logo=opensourceinitiative
+
+[node-badge]: https://img.shields.io/node/v/@form8ion/node-test-runner?logo=node.js
