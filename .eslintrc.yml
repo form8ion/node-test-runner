@@ -1,4 +1,12 @@
 root: true
+
 extends:
   - '@form8ion'
   - '@form8ion/cucumber'
+
+overrides:
+  - files: 'src/**/*-test.js'
+    rules:
+      'import/no-extraneous-dependencies':
+        - error
+        - devDependencies: true
